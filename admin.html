@@ -1,14 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Tessaract Setup - Admin</title>
-</head>
-<body>
-    <div id="mainContainer" style="width: 200px; height: 200px; position: absolute; top: 0; left: 0; background-color: blue;"></div>
-    <script>
-        mainContainer.onclick = () => console.log('radi')
-    </script>
-</body>
+  </head>
+
+  <body>
+    <input type="text" id="txt" /><input
+      type="button"
+      value="SUBMIT"
+      id="btn"
+    />
+    <script src="admin.js"></script>
+    <script src="http://localhost:5000/socket.io/socket.io.js"></script>
+  </body>
 </html>
