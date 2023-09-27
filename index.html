@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tesseract</title>
+    <script type="module" crossorigin src="assets/index-1b3847a7.js"></script>
+    <link rel="stylesheet" href="assets/index-c5194f66.css">
+  </head>
+  <body>
+
+    <!-- loading spinner -->
+    <div id="loadingSpinner" style="position: fixed; top: 0; left: 0; width: 100%; height: 100%; background-color: rgba(255, 255, 255, 1); z-index: 9999; display: flex; justify-content: center; align-items: center;">
+      <div id="loadingSpinerBorderLeft" style="border: 4px solid rgba(0, 0, 0, 0.1); width: 50px; height: 50px; border-radius: 50%; border-left-color: #f11e1e; animation: spin 1s linear infinite;"></div>
+      <!-- <div id="loadingPercentages" style="position: absolute; font-style: bold;">0%</div> -->
+    </div>
+
+    <!-- main Babylon.js canvas -->
+    <div id="canvasZone"><canvas id="renderCanvas"></canvas></div>
+
+    <div id="stopStartRotation">Stop Rotation</div>
+
+    <div id="backToClosedTessaract">Back To Folded Tesseract</div>
+
+    <div id="squereTitle">Box 1 Squere 1 Title</div>
+    <div id="backToOpenedTessaract">Back To Unfolded Tesseract</div>
+
+    <div id="blurBckg"></div>
+    <div id="popUpContainer">
+      <div id="descriptionOfSquerePopUp">
+        <div id="popUpClose">&times;</div>
+        <div id="popUpTitle">Title</div>
+        <div id="popUpText">Box 1, squere 1, Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</div>
+      </div>
+    </div>
+
+    <!-- <div id="changeJson" style="width: 100px; height: 100px; position: absolute; top: 0; background-color: brown;"></div> -->
+    <!-- <script src="/server.js"></script> -->
+    
+  </body>
+</html>
