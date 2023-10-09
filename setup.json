@@ -16,7 +16,7 @@
     "box7Color": "#ff69b4",
     "box7Text": "Box 7",
 
-    "box1SquersInfo": {
+    "box1SquaresInfo": {
 
             "box1Square1Text": "Square 1",
             "box1Square1PopUpTitle": "Box 1 Square 1 Title",
@@ -44,7 +44,7 @@
 
     },
 
-    "box2SquersInfo": {
+    "box2SquaresInfo": {
 
         "box2Square1Text": "Square 1",
         "box2Square1PopUpTitle": "Box 2 Square 1 Title",
@@ -72,7 +72,7 @@
     
     },
 
-    "box3SquersInfo": {
+    "box3SquaresInfo": {
 
         "box3Square1Text": "Square 1",
         "box3Square1PopUpTitle": "Box 3 Square 1 Title",
@@ -100,7 +100,7 @@
     
     },
 
-    "box4SquersInfo": {
+    "box4SquaresInfo": {
 
         "box4Square1Text": "Square 1",
         "box4Square1PopUpTitle": "Box 4 Square 1 Title",
@@ -128,7 +128,7 @@
     
     },
 
-    "box5SquersInfo": {
+    "box5SquaresInfo": {
 
         "box5Square1Text": "Square 1",
         "box5Square1PopUpTitle": "Box 5 Square 1 Title",
@@ -156,7 +156,7 @@
     
     },
 
-    "box6SquersInfo": {
+    "box6SquaresInfo": {
 
         "box6Square1Text": "Square 1",
         "box6Square1PopUpTitle": "Box 6 Square 1 Title",
@@ -184,7 +184,7 @@
     
     },
 
-    "box7SquersInfo": {
+    "box7SquaresInfo": {
 
         "box7Square1Text": "Square 1",
         "box7Square1PopUpTitle": "Box 7 Square 1 Title",
